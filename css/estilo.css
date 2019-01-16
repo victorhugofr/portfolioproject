@@ -1,0 +1,86 @@
+section{
+    overflow: auto;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    border-bottom: 1px solid #dee2e6;
+    height: 500px;
+    padding: 124px 54px 72px;
+}
+.about h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 70px;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+}
+.about h1 span{
+    color: black;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #787878;
+    font-weight: normal;
+    margin: 0 0 24px;
+}
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30%;
+    padding: 124px 0 72px;
+    box-sizing: border-box;
+    background-image: url(../images/overlay.png), url(../images/bg.jpg);
+    background-position: center top;
+    background-size: auto,cover;
+    text-align: center;
+    text-decoration:none; 
+     text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.main-header-link img{
+    border-radius:50%;
+    overflow: hidden;
+}
+
+.main-header a{
+    color:rgba(255,255,255,.5);
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 0 20px;
+    display: inline-block;
+
+}
+
+
+.icons{
+    float:left;
+    box-sizing: border-box;
+    margin-right: 9px;
+}
+.icons img{
+    max-width:100px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+a{
+   transition: color .7s linear; 
+    text-decoration:none; 
+}
+h2{
+    font-family: 'Work Sans', sans-serif;
+}
+p{
+    font-family: 'Work Sans', sans-serif;
+}
+a:hover,a:focus, a:active {
+    color:#49bf9d;
+    
+}
+.main-content{
+    width: 70%;
+    margin-left: 30%;
+    box-sizing: border-box;
+}
