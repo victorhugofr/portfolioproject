@@ -1,0 +1,73 @@
+.nav-link{
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 0.2rem;
+    font-weight: 100;
+    font-size: 1.0em;
+}
+
+#home-slidder{
+    background-image: url(../img/comp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+
+    min-height: 750px;
+	height: 100vh;
+	overflow: hidden;
+    position: relative;
+}
+
+#sobre{
+    background-image: url(../img/aboutme.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    
+    min-height: 750px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.caption .btn-start {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 40px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+.dev{
+    font-size: 6rem;
+}
+/*Presets*/
+@media (min-width:460px) and (max-width:768px) {
+  #home-slidder .caption h1 {
+    font-size: 20px !important;
+  }
+}
+@media (min-width:367px) and (max-width:459px) {
+  #home-slidder .caption h1 {
+    font-size: 20px !important;
+  }
+}
+@media (max-width:366px) {
+  #home-slidder .caption h1 {
+    font-size: 32px !important;
+  }
+}
+/*
+.nav-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}*/
