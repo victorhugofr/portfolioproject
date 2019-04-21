@@ -7,6 +7,16 @@
     margin-left: 25px;
 }
 
+a#whats:link,a#whats:visited{
+  text-decoration: none;
+  color: white;
+}
+
+a#socialnet:link,a#socialnet:visited{
+  text-decoration: none;
+  color: white;
+}
+
 #home-slidder{
     background-image: url(../img/comp.jpg);
     background-size: cover;

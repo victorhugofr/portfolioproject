@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- Add Bootstrap library -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Local library -->
     <link href="css/style.css" rel="stylesheet" >
+     <link href="css/icons.css" rel="stylesheet" >
 </head>
 
 <body>
@@ -15,8 +20,11 @@
             <div class="container">
     		    <a class="navbar-brand" href="#"><b>victor</b>hugo</a>
     		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    	           <span class="navbar-toggler-icon"></span>
-    	  	    </button>
+                 <div class="nav-wrapper container">
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><span class="navbar-toggler-icon"></span></a>
+                    
+                 </div>
+    	  	  </button>
 
     		<div class="collapse navbar-collapse my-2 my-lg-0" id="navbarText">
     	    	<ul class="navbar-nav ml-auto">
@@ -134,7 +142,7 @@
                 <hr class="divider my-4">
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="about-info wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                        <div class="about-info">
                              <h1 style="text-transform: uppercase;font-weight: bold !important">Sobre Mim</h1>
                              <p style="font-size: 15px;text-align: justify;">Me chamo <b>Victor Hugo</b> e sou estudante de Tecnologia da Informação <i>(Engenharia de software)</i> na UFRN. Atualmente residindo em <b>Natal/RN - Brasil</b>. Ainda não possuo experiência profissional, mas com certeza há um grande desejo de começar. Até agora, pude ver majoritariamente, programação imperativa. Isso inclui disciplinas como: Introdução às técnicas de programação (C); Estrutura de dados I e II; Desenvolvimento de sistemas web I (html,css,javascript,ajax,node,jquery); Linguagem de programação I e II (C++/Java) e ainda adquiri bastante afinidade com a matemática e lógica, devido às disciplinas de Fundamentos matemáticos da computação I e II; Cálculo I; Probabilidade; Resoluções de problemas matemáticos para TI as quais paguei com excelência; e, como extra, possuo domínio em Git/Github para versionamento.</p>
                              <p style="font-size: 15px;text-align: justify;">Além disso, costumo estudar e me aprofundar extra-faculdade: a todo momento procuro fazer cursos para aprender novas tecnologias e me manter sempre atualizado. Tenho como diferencial um ótimo equilíbrio entre solução e tempo com foco em resultados, facilidade de comunicação e criatividade.</p>
@@ -149,7 +157,44 @@
     </div>
 </section>
 <!--CONTATO SECTION-->
-
+<section class="page-section" id="contact">
+  <div class="container">
+    <hr class="divider my-4">
+      <h2 class="text-center mt-0">Contato</h2>
+    <hr class="divider my-4">
+      <div class="contact-form wow fadeIn animated" data-wow-delay="600ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeIn;">
+         <div class="row">
+                     <div class="col-sm-6">
+                        <form action="sendemail.php" id="main-contact-form" method="post" name="contact-form">
+                           <div class="form-group"><input class="form-control" name="name" placeholder="Nome" required="" type="text"></div>
+                           <div class="form-group"><input class="form-control" name="email" placeholder="Email" required="" type="email"></div>
+                           <div class="form-group"><input class="form-control" name="subject" placeholder="Assunto" required="" type="text"></div>
+                           <div class="form-group"><textarea class="form-control" id="message" name="message" placeholder="Sua mensagem" required="" rows="4"></textarea></div>
+                           <div class="form-group"><button class="btn btn-dark" type="submit">ENVIAR MENSAGEM</button></div>
+                        </form>
+                     </div>
+                     <div class="col-sm-6">
+                        <p><i>Vamos trabalhar juntos!</i></p>
+                           
+                              <b>Endereço:</b> Brasil - Natal/RN - Rua João Lindolfo, 782, Tirol<br>
+                              <b>Telefone: </b>+55 84 996885295<br><br>
+                              <div class="social-icons">
+                                <a href="https://www.facebook.com/victorhugofr1" class="social-icon"> <i class="fa fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/in/victorhugofreireramalho/" class="social-icon"> <i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/victorhugofr_/" class="social-icon"> <i class="fa fa-instagram"></i></a>
+                                <a href="https://github.com/victorhugofr" class="social-icon"> <i class="fa fa-github"></i></a>
+                            </div>
+                         <div class="list-group">
+                           <button type="button" class="btn btn-dark mt-2 mb-2 "><a href="mailto:vale1c@ufrn.edu.br" id="socialnet"><i class="fa fa-envelope"></i> vale1c@ufrn.edu.br</a></button>
+                           <button type="button" class="btn btn-success "><a href="https://wa.me/5548988078599" rel="nofollow" id="whats"><i class="fa fa-whatsapp"></i> +55 84 996885295</a></button>
+                         </div>
+                            
+                     </div>
+          </div>
+      </div>
+    <hr class="divider my-4">
+  </div>
+</section>
 
 
 <script src="js/jquery-3.3.1.min.js"></script>
@@ -161,7 +206,7 @@
 <script type="text/javascript">
          var typed = new Typed(".type", {
 
-             strings: ["Hello World!", "Meu nome é Victor Hugo!"],
+             strings: ["Hello, world!", "Meu nome é Victor Hugo!"],
 
              typeSpeed: 45,
 
