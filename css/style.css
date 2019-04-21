@@ -4,6 +4,7 @@
     letter-spacing: 0.2rem;
     font-weight: 100;
     font-size: 1.0em;
+    margin-left: 25px;
 }
 
 #home-slidder{
@@ -63,11 +64,3 @@
     font-size: 32px !important;
   }
 }
-/*
-.nav-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 5;
-}*/
