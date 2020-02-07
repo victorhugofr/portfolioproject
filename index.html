@@ -170,32 +170,30 @@
     <hr class="divider my-4">
       <div class="contact-form wow fadeIn animated" data-wow-delay="600ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeIn;">
          <div class="row">
-                     <div class="col-sm-6">
-                        <form action="sendemail.php" id="main-contact-form" method="post" name="contact-form">
-                           <div class="form-group"><input class="form-control" name="name" placeholder="Nome" required="" type="text"></div>
-                           <div class="form-group"><input class="form-control" name="email" placeholder="Email" required="" type="email"></div>
-                           <div class="form-group"><input class="form-control" name="subject" placeholder="Assunto" required="" type="text"></div>
-                           <div class="form-group"><textarea class="form-control" id="message" name="message" placeholder="Sua mensagem" required="" rows="4"></textarea></div>
-                           <div class="form-group"><button class="btn btn-dark" type="submit">ENVIAR MENSAGEM</button></div>
-                        </form>
-                     </div>
-                     <div class="col-sm-6">
-                        <p><i>Vamos trabalhar juntos!</i></p>
-                           
-                              <b>Endereço:</b> Brasil - Natal/RN - Rua João Lindolfo, 782, Tirol<br>
-                              <b>Telefone: </b>+55 84 996885295<br><br>
-                              <div class="social-icons">
-                                <a href="https://www.facebook.com/victorhugofr1" class="social-icon"> <i class="fa fa-facebook"></i></a>
-                                <a href="https://www.linkedin.com/in/victorhugofreireramalho/" class="social-icon"> <i class="fa fa-linkedin"></i></a>
-                                <a href="https://www.instagram.com/victorhugofr_/" class="social-icon"> <i class="fa fa-instagram"></i></a>
-                                <a href="https://github.com/victorhugofr" class="social-icon"> <i class="fa fa-github"></i></a>
-                            </div>
-                         <div class="list-group">
-                           <button type="button" class="btn btn-dark mt-2 mb-2 "><a href="mailto:vale1c@ufrn.edu.br" id="socialnet"><i class="fa fa-envelope"></i> vale1c@ufrn.edu.br</a></button>
-                           <button type="button" class="btn btn-success "><a href="https://wa.me/5548988078599" rel="nofollow" id="whats"><i class="fa fa-whatsapp"></i> +55 84 996885295</a></button>
-                         </div>
-                            
-                     </div>
+            <div class="col-sm-6">
+              <form action="mailto:vale1c@ufrn.edu.br" id="main-contact-form" method="GET" name="contact-form">
+                <div class="form-group"><input class="form-control" name="name" placeholder="Nome" required="" type="text"></div>
+                <div class="form-group"><input class="form-control" name="email" placeholder="Email" required="" type="email"></div>
+                <div class="form-group"><input class="form-control" name="subject" placeholder="Assunto" required="" type="text"></div>
+                <div class="form-group"><textarea class="form-control" id="message" name="body" placeholder="Sua mensagem" required="" rows="4"></textarea></div>
+                <div class="form-group"><button class="btn btn-dark" type="submit">ENVIAR MENSAGEM</button></div>
+              </form>
+            </div>
+            <div class="col-sm-6">
+              <p><i>Vamos trabalhar juntos!</i></p>
+              <b>Endereço:</b> Brasil - Natal/RN, Tirol<br>
+              <b>Telefone: </b>+55 84 996885295<br><br>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/victorhugofr1" class="social-icon"> <i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/victorhugofreireramalho/" class="social-icon"> <i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/victorhugofr_/" class="social-icon"> <i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/victorhugofr" class="social-icon"> <i class="fa fa-github"></i></a>
+              </div>
+              <div class="list-group">
+                <button type="button" class="btn btn-dark mt-2 mb-2 "><a href="mailto:vale1c@ufrn.edu.br" id="socialnet"><i class="fa fa-envelope"></i> vale1c@ufrn.edu.br</a></button>
+                <button type="button" class="btn btn-success "><a href="https://wa.me/5548988078599" rel="nofollow" id="whats"><i class="fa fa-whatsapp"></i> +55 84 996885295</a></button>
+              </div>
+            </div>
           </div>
       </div>
     <hr class="divider my-4">
